@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Données Kaggle (ne pas inclure les fichiers de données)
+data/raw/
+*.csv
+*.pkl
+*.joblib
+*.h5
+*.npy
+
+# Soumissions Kaggle
+submission_*.csv
+
+# Modèles entraînés (peuvent être regénérés)
+models/
+saved_models/
+
+# Logs et outputs temporaires
+logs/
+outputs/
+results/
+temp/
+tmp/
